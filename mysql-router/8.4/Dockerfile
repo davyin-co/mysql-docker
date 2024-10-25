@@ -16,7 +16,7 @@ FROM container-registry.oracle.com/os/oraclelinux:8-slim
 
 ARG MYSQL_CLIENT_PACKAGE=mysql-community-client-8.4.3
 ARG MYSQL_ROUTER_PACKAGE=mysql-router-community-8.4.3
-ARG CONFIG_PACKAGE_NAME=mysql84-community-release-el9.rpm
+ARG CONFIG_PACKAGE_NAME=mysql84-community-release-el8.rpm
 ARG REPO_NAME_SERVER=mysql-8.4-lts-community
 ARG REPO_NAME_TOOLS=mysql-tools-8.4-lts-community
 
